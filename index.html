@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Simple Video Slider</title>
+</head>
+<body>
+	
+	<section>
+		<video id="slider" muted loop autoplay>
+			<source src="./video/vid1.mp4" type="video/mp4">
+		</video>
+
+
+
+		<ul class="navigation">
+			<li onclick="videoUrl('vid1.mp4')">
+				<img src="./images/img1.JPG" alt="">
+			</li>
+			<li onclick="videoUrl('vid2.mp4')">
+				<img src="./images/img2.JPG" alt="">
+			</li>
+			<li onclick="videoUrl('vid3.mp4')">
+				<img src="./images/img3.JPG" alt="">
+			</li>  
+		</ul>
+	</section>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
